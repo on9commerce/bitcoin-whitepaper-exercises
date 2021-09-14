@@ -1,4 +1,4 @@
-// From Pull Stack Developer: AT
+// From Pull Stack Developer: Adrian(AT) https://www.linkedin.com/in/adrianteoyc/
 // For Consensys Blockchain BootCamp
 // Reference from: 
 // https://github.com/cooganb/bitcoin-whitepaper-exercises
@@ -70,4 +70,4 @@ huatCoin.addBlock({amount: 16});
 console.log(JSON.stringify(huatCoin, null, 2));
 
 // Check if blockchain is valid without tampering
-console.log('Is Huatchain valid? ' + huatCoin.isChainValid());
+console.log('Is huatCoin valid? ' + huatCoin.isChainValid());
